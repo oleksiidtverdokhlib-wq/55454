@@ -1,0 +1,137 @@
+/* 1. Загальні стилі сторінки (темна нуарна тема) */
+body {
+    background-color: #121418;
+    color: #e1e6ed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+/* 2. Головний заголовок сторінки */
+#page-title {
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 12px rgba(230, 57, 70, 0.5);
+}
+
+/* 3. Підзаголовки розділів */
+.section-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #f8f9fa;
+    border-bottom: 2px solid #e63946;
+    padding-bottom: 8px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+/* 4. Оформлення текстових елементів */
+.intro {
+    font-size: 17px;
+    font-style: italic;
+    color: #d1d5db;
+    background-color: #1c2128;
+    padding: 15px 20px;
+    border-left: 4px solid #e63946;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.highlight {
+    background-color: #e63946;
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+em {
+    color: #ff6b6b;
+    font-style: italic;
+}
+
+/* 5. Стилізація зображень */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 10px 15px 0;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.7);
+    border: 1px solid #2d3748;
+}
+
+/* 6. Оформлення посилань */
+a {
+    color: #ff4d4d;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+    color: #ff8080;
+    text-decoration: underline;
+    text-shadow: 0 0 8px rgba(255, 77, 77, 0.7);
+}
+
+/* 7. Оформлення списків */
+ul, ol {
+    background-color: #1a1d24;
+    padding: 20px 20px 20px 40px;
+    border-radius: 8px;
+    border: 1px solid #2d3748;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #d1d5db;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+/* 8. Оформлення таблиці */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #1a1d24;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #2d3748;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #2d3748;
+}
+
+th {
+    background-color: #252a34;
+    color: #e63946;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+tr:nth-child(even) {
+    background-color: #14171d;
+}
+
+tr:hover {
+    background-color: #212631;
+}
